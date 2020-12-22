@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <!-------------
+    LIBS
+-------------->
+
+    <%- include ('parts/libs.ejs')%>
+</head>
+
+<body>
+    <!-------------
+    NAV
+-------------->
+
+    <%- include ('parts/menu.ejs')%>
+
+    <!-------------
+    HEADER
+-------------->
+    <div class="container">
+        <header class="row">
+            <div class="col-sm-12 mt-5 mb-5 ">
+                <img src="/img/icon.png" class="animated_animated animate__bounceIn rounded mx-auto d-block img-fluid"
+                    alt="MercaConMercado">
+            </div>
+        </header>
+
+    </div>
+
+
+    <!-------------
+    SECTION 1
+-------------->
+    <div class="container-fluid" id="about">
+
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-md-6">
+                <i class="fab fa-twitch fa-10x"></i>
+            </div>
+            <div class="col-md-6">
+                <h3>La comunidad de los MercAmigos te espera, Sigueme!!</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, cupiditate officiis. Illo porro
+                    aperiam cum ipsam hic, officiis doloremque ducimus quia provident ratione rerum dolorum
+                    perspiciatis. Iste reiciendis earum exercitationem.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------
+    FOOTER
+-------------->
+
+    <%- include ('parts/footer.ejs')%>
+</body>
+
+
+</html>
